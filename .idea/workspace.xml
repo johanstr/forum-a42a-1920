@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19e8a72-8da6-465f-8c66-7f24208bc0bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_27_085824_fideldom.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +216,8 @@
       <workItem from="1583149790278" duration="3086000" />
       <workItem from="1584614719404" duration="464000" />
       <workItem from="1584616574336" duration="727000" />
-      <workItem from="1585475477302" duration="101000" />
+      <workItem from="1585475477302" duration="175000" />
+      <workItem from="1585475668258" duration="613000" />
     </task>
     <servers />
   </component>
