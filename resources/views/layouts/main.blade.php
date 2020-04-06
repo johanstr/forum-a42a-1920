@@ -53,20 +53,32 @@
                 <a href="{{ route('home') }}" class="brand-logo"><img alt="" title="" src="{{ asset('img/weblogo.png') }}" class="responsive-img">
                     <span class="forum-title">Forum</span>
                 </a>
-                <ul id="theme-menu" class="dropdown-content">
-                    <li><a href="profile.html">Profiel</a></li>
-                    <li><a href="dashboard.html">Beheer</a></li>
-                    <li><a href="logout.html">Afmelden</a></li>
-                </ul>
+                @auth
+                    <ul id="theme-menu" class="dropdown-content">
+                        <li><a href="profile.html">Profiel</a></li>
+                        <li><a href="dashboard.html">Beheer</a></li>
+                        <form method="POST" action="{{ route('logout') }}" id="logout">
+                            @csrf
+                            <li>
+                                <a href="javascript:{}" onclick="document.getElementById('logout').submit()">Afmelden</a>
+                            </li>
+                        </form>
+                    </ul>
+                @endauth
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="register.html">Registreren</a></li>
-                    <li><a href="login.html">Aanmelden</a></li>
-                    <li>
-                        <a href="/" data-activates="theme-menu" class="dropdown-button">
-                            <img src="http://www.gravatar.com/avatar/fc7d81525f7040b7e34b073f0218084d?s=20" alt="" class="square"> Username &dtrif;
-                        </a>
-                    </li>
+                    @guest
+                        <li><a href="register.html">Registreren</a></li>
+                        <li><a href="{{ route('login') }}">Aanmelden</a></li>
+                    @endguest
+                    @auth
+                        <li>
+                            <a href="/" data-activates="theme-menu" class="dropdown-button">
+                                <img src="http://www.gravatar.com/avatar/fc7d81525f7040b7e34b073f0218084d?s=20" alt="" class="square">
+                                {{ Auth::user()->username }} &dtrif;
+                            </a>
+                        </li>
+                    @endauth
                 </ul>
             </div>
         </div>

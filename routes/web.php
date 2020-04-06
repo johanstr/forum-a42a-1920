@@ -13,4 +13,7 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::get('/thread/{id}', 'ThreadController@show')->name('home.thread');
+
+Auth::routes();
 

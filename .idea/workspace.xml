@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19e8a72-8da6-465f-8c66-7f24208bc0bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/thread/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/foruma42a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/foruma42a.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +156,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1YFqbxjjr6HmFKyZoO8V5K85w7j" />
@@ -222,7 +234,7 @@
       <workItem from="1585475668258" duration="613000" />
       <workItem from="1585558251454" duration="4298000" />
       <workItem from="1585831299454" duration="151000" />
-      <workItem from="1586155913998" duration="1558000" />
+      <workItem from="1586155913998" duration="6318000" />
     </task>
     <servers />
   </component>
@@ -234,6 +246,10 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="440" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.976@0.23.1680.976" timestamp="1582549020662" />
+    <state x="500" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586166068806">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="500" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1586166068806" />
     <state width="1126" height="235" key="GridCell.Tab.0.bottom" timestamp="1583153096974">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
@@ -250,10 +266,10 @@
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state width="1126" height="235" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1583153096973" />
-    <state x="605" y="337" key="NewPhpFileDialog" timestamp="1585560580570">
+    <state x="605" y="337" key="NewPhpFileDialog" timestamp="1586164047471">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="605" y="337" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1585560580570" />
+    <state x="605" y="337" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1586164047471" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1585561884600">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
