@@ -74,7 +74,7 @@
                     @auth
                         <li>
                             <a href="/" data-activates="theme-menu" class="dropdown-button">
-                                <img src="http://www.gravatar.com/avatar/fc7d81525f7040b7e34b073f0218084d?s=20" alt="" class="square">
+                                <img src="http://www.gravatar.com/avatar/fc7d81525f7040b7e34b073f0218084d?s=20" alt="{{ Auth::user()->username }}" class="square">
                                 {{ Auth::user()->username }} &dtrif;
                             </a>
                         </li>
