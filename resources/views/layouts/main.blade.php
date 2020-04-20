@@ -55,8 +55,10 @@
                 </a>
                 @auth
                     <ul id="theme-menu" class="dropdown-content">
-                        <li><a href="profile.html">Profiel</a></li>
-                        <li><a href="dashboard.html">Beheer</a></li>
+                        <li><a href="{{ route('profile') }}">Profiel</a></li>
+                        @if(Auth::user()->isAdmin())
+                        <li><a href="{{ route('dashboard') }}">Beheer</a></li>
+                        @endif
                         <form method="POST" action="{{ route('logout') }}" id="logout">
                             @csrf
                             <li>
@@ -68,7 +70,7 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="{{ route('home') }}">Home</a></li>
                     @guest
-                        <li><a href="register.html">Registreren</a></li>
+                        <li><a href="{{ route('register') }}">Registreren</a></li>
                         <li><a href="{{ route('login') }}">Aanmelden</a></li>
                     @endguest
                     @auth
